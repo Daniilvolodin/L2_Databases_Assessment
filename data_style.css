@@ -44,7 +44,7 @@ body {
 
 /* make logo and banner the same colour */
 .logo, .main {
-    background-color:beige;  /* beige */
+    background-color:#8b6b6b;  /* beige */
 }
 .new {
     background-color: transparent;
