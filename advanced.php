@@ -86,7 +86,13 @@ else {
     $defspeed = 0;
     $defspeed_op = "<=";
     }
-
+if ($generation == ""){
+    $generation = 0;
+    $gen_op = "<=";
+}
+elseif ($generation != ""){
+    $gen_op = ">=";
+}
 
 
 
@@ -154,7 +160,13 @@ else {
 ?>
                        
             
-        <div class="box main">
+        <div class="box main" style="border: 3px solid;
+    background-image: url(images/pokeballs.jpg);
+    background-blend-mode: multiply;
+    background-color: #867b7b;
+    background-repeat-x: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;">
             
             
             <?php
