@@ -44,7 +44,7 @@ body {
 
 /* make logo and banner the same colour */
 .logo, .main {
-    background-color:#dfacac;  /* beige */
+    background-color:#dfacac;  /* red/darkened */
 }
 .new {
     background-color: transparent;
@@ -54,7 +54,7 @@ body {
 }
 
 .banner, .side {
-    background-color: #d6d3d7; /* blue grey */
+    background-color: #ffff; /* blue grey */
     border: 3px solid;
 }
 
@@ -185,9 +185,10 @@ a.side:hover {color:#8a1737; }
 }
 .pokeball {
     height: 140px;
-    position: relative;
-    left: 70px;
-    top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 5px;
 }
 .submit{
     font-family: FontAwesome, 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -398,7 +399,7 @@ input {
     font-family: cursive;
 }
 input[type=number]{
-      border: 1px solid;
+     
 }
 .linkthem{
     width: initial;
